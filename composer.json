@@ -1,0 +1,25 @@
+{
+    "name": "manadinho/rpg-fast-debugger",
+    "description": "Utilize FastDebugger to swiftly resolve issues through debugging.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Manadinho\\RPGFastDebugger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Imran",
+            "email": "mimranisrar6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "textalk/websocket": "^1.5.8",
+        "symfony/var-dumper": "^4.4.47"
+    }
+}
